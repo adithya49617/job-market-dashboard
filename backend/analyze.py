@@ -3,7 +3,7 @@ import json
 from collections import Counter
 from pathlib import Path
 
-SAMPLE_DATA_PATH = Path(__file__).parent.parent / "data" / "sample_jobs.json"
+SAMPLE_DATA_PATH = Path(__file__).parent / "data" / "sample_jobs.json"
 
 def load_jobs(api_jobs=None):
     """Load jobs from API result or fall back to sample data."""
